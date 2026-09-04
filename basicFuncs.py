@@ -31,5 +31,8 @@ cv.imshow("Dilated", dilated)
 #   Canny → thin edges → Dilation → thicker/connected edges🔗
 #   Remember: Bigger kernel or more iterations = more dilation.
 
+#5. Cropping image
+cropped = img[50:200, 200:400]
+cv.imshow("Cropped", cropped)
 
 cv.waitKey(0)
