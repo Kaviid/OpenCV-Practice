@@ -7,4 +7,8 @@ cv.imshow("Original color",img)
 gray = cv.cvtColor(img, cv.COLOR_RGB2GRAY)
 cv.imshow("Gray color", gray)
 
+#2. Image Blur
+blur = cv.GaussianBlur(img, (7,7), cv.BORDER_DEFAULT)
+cv.imshow("Blured Image", blur)
+
 cv.waitKey(0)
