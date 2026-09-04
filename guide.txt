@@ -1,0 +1,6 @@
+Create .venv :
+    python -m venv .venv
+    .venv\Scripts\Activate.ps1
+
+Install openCV :
+    pip install opencv-contrib-python
